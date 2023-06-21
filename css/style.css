@@ -993,3 +993,8 @@ fill:#F4F4FD;
 .checkbox-link{
   text-decoration: underline;
 }
+@media (min-width:360px) {
+  body {
+    max-width: 100%;
+  }
+}
