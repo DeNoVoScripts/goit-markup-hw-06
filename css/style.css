@@ -12,6 +12,7 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     font-style: normal;
+    width: 100%;
   }
   ul{
 	list-style-type: none;
@@ -993,8 +994,14 @@ fill:#F4F4FD;
 .checkbox-link{
   text-decoration: underline;
 }
-@media (max-width:360px) {
-  body {
-    max-width: 100%;
-  }
+@media screen and (max-width:428px) {
+    .footer {
+    
+    }
+}
+@media screen and (max-width:768px) {
+
+} 
+@media screen and (min-width:1158px) {
+
 }
