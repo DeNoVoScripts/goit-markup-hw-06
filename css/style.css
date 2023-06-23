@@ -994,14 +994,10 @@ fill:#F4F4FD;
 .checkbox-link{
   text-decoration: underline;
 }
-@media screen and (max-width:428px) {
-    .footer {
-    
-    }
-}
-@media screen and (max-width:768px) {
 
-} 
-@media screen and (min-width:1158px) {
+
+/*/////////// MOBILE ////*/
+
+@media screen and (max-width:700px) {
 
 }
