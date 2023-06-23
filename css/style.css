@@ -998,6 +998,13 @@ fill:#F4F4FD;
 
 /*/////////// MOBILE ////*/
 
-@media screen and (max-width:700px) {
-
+@media screen and (min-width:320px) and (max-width:768px) {
+  .main-section-goal {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .main-fon-icon {
+    display: none;
+  }
 }
