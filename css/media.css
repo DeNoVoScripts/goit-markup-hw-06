@@ -1,0 +1,176 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
+
+  /* -----------Section two----------------- */
+
+  .section-two .list {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* -----------Section two----------------- */
+
+  .section-two .list .item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .section-two .item .title {
+    text-align: left;
+  }
+
+  .section-two .list .text {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+
+  /* -----------Section four----------------- */
+
+  .section-four .team-list {
+    gap: 64px 24px;
+  }
+
+  /* -----------Section five----------------- */
+
+  .section-five .container {
+    padding: 0 108px;
+  }
+
+  .section-five .list {
+    gap: 72px 24px;
+  }
+
+  .section-five .item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  /* -----------Footer----------------- */
+
+  .footer-subscribe-label {
+    text-align: left;
+  }
+
+  .footer-input-label {
+    max-width: 264px;
+  }
+
+  .footer .container {
+    justify-content: left;
+    padding: 108px;
+  }
+
+  .footer-form {
+    justify-content: left;
+    gap: 24px;
+  }
+
+  .footer-logo-div {
+    align-items: start;
+  }
+
+  .footer-title {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /* -----------Section two----------------- */
+
+  .section-two {
+    padding: 120px 0;
+  }
+
+  .section-two .list .item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .section-two .icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4fd;
+    height: 112px;
+    border-radius: 4px;
+    padding: 24px 0;
+    margin-bottom: 8px;
+  }
+
+  .section-two .item .title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+  }
+
+  /* -----------Section three----------------- */
+
+  .section-three {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .section-three .list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .section-three .item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  /* -----------Section four----------------- */
+
+  .section-four {
+    padding: 120px 0;
+  }
+
+  /* -----------Section five----------------- */
+
+  .section-five {
+    padding: 120px 0;
+  }
+
+  .section-five .container {
+    padding: 0 15px;
+  }
+
+  .section-five .item {
+    width: unset;
+  }
+
+  /* -----------Footer----------------- */
+
+  .footer .container {
+    padding: 100px 15px;
+    gap: 0;
+  }
+
+  .footer-subscribe-div {
+    width: 453px;
+  }
+
+  .footer-input {
+    opacity: 1;
+  }
+
+  .footer-logo-div {
+    margin-right: 120px;
+  }
+
+  .footer-social-div {
+    margin-right: 80px;
+  }
+}
