@@ -892,3 +892,10 @@ textarea {
 .modal-textarea-container {
   margin-bottom: 16px;
 }
+
+/*////////////// MOBILE MENU //////////*/
+@media screen and (max-width:1158px) {
+  .comp {
+    display: none;
+  }
+}
