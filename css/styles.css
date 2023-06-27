@@ -23,6 +23,8 @@ img {
   height: auto;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -68,7 +70,7 @@ p {
 
 .link:hover,
 .link:focus {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--hover-link-color);
 }
 
@@ -105,11 +107,12 @@ p {
   content: "";
   height: 4px;
   width: 100%;
-  bottom: -1px;
+  bottom: -4px;
   left: 0;
   background-color: #404bbf;
   border-radius: 2px;
   position: absolute;
+
 }
 
 .logo {
@@ -1302,7 +1305,7 @@ textarea {
   }
 
   .section-five .item {
-    width: unset;
+    width: calc((100% - (5 * 24px)) / 6);
   }
 
   /* -----------Footer----------------- */
